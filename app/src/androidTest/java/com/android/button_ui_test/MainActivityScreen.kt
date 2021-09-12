@@ -1,6 +1,7 @@
 package com.android.button_ui_test
 
 import io.github.kakaocup.kakao.screen.Screen
+import io.github.kakaocup.kakao.text.KButton
 import io.github.kakaocup.kakao.text.KTextView
 
 class MainActivityScreen : Screen<MainActivityScreen>() {
@@ -14,7 +15,7 @@ class MainActivityScreen : Screen<MainActivityScreen>() {
         withText(R.string.print_hello_description)
     }
 
-    private val buttonPrintHello = KTextView {
+    private val buttonPrintHello = KButton {
         withId(R.id.button_printHello)
         withText(R.string.button_print_hello_text)
     }
