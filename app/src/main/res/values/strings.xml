@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android-button-ui-test</string>
+    <string name="print_hello_description">Please click below button to print hello</string>
+    <string name="button_print_hello_text">Print Hello</string>
+    <string name="hello_word_title">Hello World 😊</string>
+
+</resources>
